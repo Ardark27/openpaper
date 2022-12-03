@@ -10,7 +10,6 @@ async function get_data() {
     .then(text => text.json())
     .then(text => text.best_oa_location.url_for_pdf);
     // return the response in json format
-    console.log(response);
     return response;
     
 }
